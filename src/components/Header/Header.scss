@@ -1,0 +1,17 @@
+
+@import '../../globals.scss';
+header {
+	background-color: #47e4c2;
+	color: #fff;
+	padding: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-weight: bold;
+    height: $header-height;
+    width: 100%;
+	box-sizing: border-box;
+
+	.logo {
+		cursor: pointer;
+	}
+}

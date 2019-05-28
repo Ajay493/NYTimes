@@ -1,0 +1,11 @@
+
+@import '../../globals.scss';
+footer {
+	padding: 1rem;
+	background-color: #ddd;
+	font-size: 14px;
+    text-align: center;
+    width: 100%;    
+	height: $footer-height;
+	box-sizing: border-box;
+}
