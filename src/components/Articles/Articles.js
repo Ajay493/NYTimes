@@ -25,31 +25,7 @@ const ChevronRightIcon = () => (
 const Articles = ({ article, goToDetails }) => {
     const { id, title, byline, published_date, media, url } = article;
     const selectedArticle = article;
-    // console.log(selectedArticle)
     return (
-        // <div className="article" onClick={() => window.open(url)} key={id}>
-        //     <div className="row">
-        //         <div className="col-xs-3">
-        //             <div className="article-image">
-        //                 <img className="img-responsive" src={media[0]['media-metadata'][1].url} alt={media[0].caption} />
-        //             </div>
-        //         </div>
-        //         <div className="col-xs-8 noPad alignLeft">
-        //             <h4 className="article-title">{title}</h4>
-        //             <div className="article-byline-date">
-        //                 <span className="article-bylinne">{byline}</span>
-        //                 <div className="article-date">
-        //                     <i className="glyphicon glyphicon-calendar icon-pad"></i>
-        //                     <span className="inline-block">{published_date}</span>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //         <div className="col-xs-1 alignRgt">
-        //             <i className="glyphicon glyphicon-chevron-right pointer"></i>
-        //         </div>
-        //     </div>
-        // </div>
-
         <div className="content--item" onClick={goToDetails(selectedArticle)}  key={id}   >
         <div className="content--image">
             <img alt="thumbnail" src={media[0]['media-metadata'][1].url} />
