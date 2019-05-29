@@ -23,8 +23,9 @@ const ChevronRightIcon = () => (
 
 
 const Articles = ({ article, goToDetails }) => {
-    const { id, title, byline, published_date, media, url } = article;
+    const { id, title, byline, published_date, media } = article;
     const selectedArticle = article;
+    console.log(selectedArticle)
     return (
         <div className="content--item" onClick={goToDetails(selectedArticle)}  key={id}   >
         <div className="content--image">

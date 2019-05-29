@@ -3,7 +3,7 @@ import './App.css';
 import {BrowserRouter} from 'react-router-dom';
 import Home from "./components/Home/Home";
 import Details from "./components/Detail/Detail";
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
     class App extends Component {
         render() {
@@ -19,5 +19,4 @@ import { Route, Switch, Redirect } from 'react-router-dom';
             );
         }
     }
-
-    export default App;
+export default App;
